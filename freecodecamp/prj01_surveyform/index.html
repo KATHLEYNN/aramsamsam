@@ -1,89 +1,62 @@
-<h1 id="title">Which Hogwarts House Would You Be In?</h1>
-<p id="description">The Sorting Hat will sort you into the Hogwarts house where you belong! But don't forget, the four houses of Hogwarts - Gryffindor, Hufflepuff, Ravenclaw, and Slytherin. </p>
-
-<form id="survey-form">
-  <div class="input-element">
-    <label id="name-label">
-    Name:
-    </label>
-    <input placeholder="name" id="name" type="text" required/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts House</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="heading">
+    <h1 id=title>Which Hogwarts House Would You Be In?</h1>
+    <p id="description">The Sorting Hat will sort you into the Hogwarts house where you belong! But don't forget, the four houses of Hogwarts - Gryffindor, Hufflepuff, Ravenclaw, and Slytherin.</p>
     </div>
-<p>
-    <div class="input-element">
-    <label id="email-label">
-    Email:
-    </label>
-    <input placeholder="email" id="email" type="email" required/>
-    </div>
-<p>
-    <div class="input-element">
-    <label id="number-label">
-    Age:
-    </label>
-    <input placeholder="age" id="number" min="5" max="99" type="number" required/>
-    </div>
-<p>
-    <div>
-      <label>Gender:</label>
-        <label><input type="radio" name="gender" value="best"/>Male</label>
-       <label><input type="radio" name="gender" value="best"/>Female</label>
-    </div>
+    <div id="main">
+        <form id="survey-form">
+        <div id="input-fields">
+            <label id="name-label"><b>Name:</b></label>
+            <input id="name" type="name" name="name" class="form" required placeholder="Full Name"><br>
+            <br>
+            <label id="email-label"><b>Email:</b></label>
+            <input id="email" type="email" name="email" class="form" required placeholder="example@mail.com"><br>
+            <br>
+            <label id="number-label"><b>Age:</b></label>
+            <input id="number" type="number" name="number" class="form" min="5" max="99" placeholder="12+">
+         </div>
 
- <div class="input-element">
-    <p id="select-label">
-    If given a choice, which house do you wish to be in?
-     <select id="dropdown">
-       <option> </option>
-       <option>Gryffindor</option>
-       <option>Hufflepuff</option>
-       <option>Ravenclaw</option>
-       <option>Slytherin</option>
-     </select>
-    </div>
+<div id="button-area">
+             <br>
+            <label id="gender"><b>Gender:</b></label><br>
+            <input type="radio" class="radio-inline" name="gender" value="best">Male<br>
+            <input type="radio" class="radio-inline" name="gender" value="best">Female<br>
 
-    <div>
-      <label>What is your favorite activity?</label>
-      <div>
-        <label><input type="checkbox" name="act" value="fave"/>Read books</label>
-        </div>
-        <div>
-      <label><input type="checkbox" name="act"value="fave"/>Make potions</label>
-      </div>
-      <div>
-      <label><input type="checkbox" name="act" value="fave"/>Create craft items</label>
-      </div>
-      <div>
-      <label><input type="checkbox" name="act" value="fave"/>Play ports</label>
-      </div>
+         <div id="dropdown-div"><br>
+            <label id="dropdown-label"><strong>If given a choice, which house do you wish to be in?</strong></label><br>
+            <select id="dropdown" name="code-lang" class="form">
+                <option value="Selecting">Select</option>
+                <option value="Gryffindor">Gryffindor</option>
+                <option value="Hufflepuff">Hufflepuff</option>
+                <option value="Ravenclaw">Ravenclaw</option>
+                <option value="Slytherin">Slytherin</option>
+            </select>
+         </div>
+         
+          <div id="button-area"><br><br>
+            <label id="os-label"><b>What is your favorite activity?</b></label><br>
+            <input type="checkbox" name="books" value="rb">Read books<br>
+            <input type="checkbox" name="potions" value="mp">Make potions<br>
+            <input type="checkbox" name="create" value="cci">Create craft items<br>
+            <input type="checkbox" name="play" value="ps">Play Sports<br>
+          </div>
+
+
+          <div id="ending"><br><br>
+            <label id="comments-label">Do you have any suggestion about this survey?</label><br>
+            <textarea style= height:120px;" class="form" placeholder="Please feel free to write a review..."></textarea><br><br>
+            <input id="submit" type="submit"  class="form">
+          </div>
+        </form>
     </div>
 
-<p></p>
-
-<div>
-    <div>
-      <label>What's your best trait you think have got?</label>
-      <div>
-        <label><input type="radio" name="trait" value="best"/>Intelligence</label>
-        </div>
-        <div>
-       <label><input type="radio" name="trait" value="best"/>Bravery</label>
-       </div>
-       <div>
-       <label><input type="radio" name="trait" value="best"/>Kindness</label>
-       </div>
-       <div>
-       <label><input type="radio" name="trait" value="best"/>Ambition</label>
-       </div>
-</div>
-
-<div>
-  <p>Additional comments:</p>
-  <textarea type="text"></textarea>
-</div>
-
-<h3>
- <button type="submit" id="submit">
-   Submit
- </button>
- </h3>
-    </form>
+</body>
+</html>
