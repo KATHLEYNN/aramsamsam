@@ -65,6 +65,7 @@ html {
   }
   
   @media (max-width: 1199px) and (min-width: 769px) {
+<<<<<<< HEAD
    #piano{
      width: 675px;
    }
@@ -73,3 +74,13 @@ html {
    }
   }
   
+=======
+    #piano {
+      width: 675px;
+    }
+    .keys {
+      width: 633px;
+    }
+  
+  }
+>>>>>>> 17c7e218725dac5ad465e5b94f075f14b1a900bc
