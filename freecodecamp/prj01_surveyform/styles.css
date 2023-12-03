@@ -1,3 +1,38 @@
+<<<<<<< HEAD
+body{
+    background-color: lightblue;
+    text-align: center;
+  }
+  form {
+    max-width: 500px;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    }
+  input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+   input-element {
+     display: flex;
+     flex-direction: column;
+     margin: 10px;
+   }
+  select{
+    padding:5px;
+    border: none;
+    border-radius: 5px;
+   }
+  input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+   }
+
+
+   
+=======
 {
   margin: 0;
   padding: 0;
@@ -57,3 +92,4 @@ border-radius: 6px;
 font-size: 1.0rem;
 border: none;
 }
+>>>>>>> 17c7e218725dac5ad465e5b94f075f14b1a900bc

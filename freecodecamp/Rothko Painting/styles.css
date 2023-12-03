@@ -45,6 +45,10 @@
     filter: blur(2px);
     box-shadow: 0 0 5px 5px #b20403;
     border-radius: 30px 25px 60px 12px;
+<<<<<<< HEAD
+  transform: rotate(-0.2deg);
+=======
     transform: rotate(-0.2deg);
   
+>>>>>>> 17c7e218725dac5ad465e5b94f075f14b1a900bc
   }
